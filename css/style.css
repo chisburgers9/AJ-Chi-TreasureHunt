@@ -1,0 +1,50 @@
+/******************** 
+	GENERAL 
+*********************/
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+hr {
+	height: 9px;
+	background-color: black;
+}
+
+.col-md-12 {
+	border: 2px solid red;
+	padding: 10px;
+}
+/********************
+	INDEX PAGE
+*********************/
+
+img {
+	max-width: 100%;
+	max-height: 191px;
+}
+
+.applejuice input {
+	font-size: 3em;
+	max-width: 100%;
+	border: 1px solid gray;
+}
+
+.applejuice input[id="next"]:disabled {
+  opacity: .2;
+}
+
+.applejuice input[id="next"]:enabled {
+	color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
